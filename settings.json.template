@@ -13,7 +13,7 @@
   "coin": "SmelterCoin",
 
   // coin symbol
-  "symbol": "DST",
+  "symbol": "SME",
 
   // language settings
   "languages" : ["us"],
@@ -65,7 +65,7 @@
   // menu settings
   "display": {
     "api": true,
-    "markets": true,
+    "markets": false,
     "richlist": true,
     "twitter": true,
     "facebook": true,
@@ -89,10 +89,10 @@
 
   // ensure links on API page are valid
   "api": {
-    "blockindex": 62,
-    "blockhash": "00000000365059eaded26a2676d94376d45499d4a69aea3442efe5a332728fcc ",
-    "txhash": "c98754b2a5b5cddf10103c1701f448a53c81031c6afbdd0658ca74bd56e7ed57",
-    "address": "DR6DPEkZADq4jB3kGY4wrpGnQfxkEPSHwx"
+    "blockindex": 1326,
+    "blockhash": "af88a76c0fe25d9198aa55fc7baa624a72ab4b87f878080f228604c7f200c9d8",
+    "txhash": "13ecdcffaaf9f425c70bb0216ba30e907f101feaa11cd96500cc7e69587d480a",
+    "address": "sgY88m5pfZU1Az1yG88QEyMAzNTAaVKa8b"
   },
 
   // market settings
@@ -100,7 +100,7 @@
   //                   crex
   //default market is loaded by default and determines last price in header
   "markets": {
-    "coin": "DST",
+    "coin": "SME",
     "exchange": "BTC",
     "enabled": ["crex"],
     "cryptopia_id": "2186",
@@ -129,21 +129,21 @@
   // Peers page settings
   // ipstack_api_key: ipstack.com Geo IP. This is the replacement of http://freegeoip.net You need an API Key for the Requests
   "peers": {
-    "ipstack_api_key": "24482fb8c8eaf32e7638418df2a86823"
+    "ipstack_api_key": "ipstack_api_key"
   },
 
   // twitter, facebook, googleplus, bitcointalk, github, slack, website
   "twitter": "SmelterCoin",
   "facebook": "Smelter.Coin.1",
   "googleplus": "yourgooglepluspage",
-  "bitcointalk": "3922106.0",
+  "bitcointalk": "5075471",
   "github": "smelter-projects/SmelterCoin",
   "slack": "yourfullslackinviteurl",
   "website": "https://smeltercoin.com",
 
   //genesis
-  "genesis_tx": "bc9d7507709a1941c27f8e426c1ab5bfb1c14579c09a8052be1658997b778966",
-  "genesis_block": "000000d280fd2dcad5c440a9e444a599a9074e15fa3588921f5a81e192e358f7",
+  "genesis_tx": "c66f6c7e9589f86050e03f5957ffc9272e9803f8951d56e6977eb9165bed5efa",
+  "genesis_block": "000002c5045bee6b1b454b14ddb8c904eb19ce145889b8bbd0287113f07856e1",
 
   //heavy (enable/disable additional heavy features)
   "heavy": false,
